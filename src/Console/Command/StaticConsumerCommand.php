@@ -10,10 +10,6 @@ declare(strict_types=1);
 
 namespace Gamee\RabbitMQ\Console\Command;
 
-use Gamee\RabbitMQ\Consumer\ConsumerFactory;
-use Gamee\RabbitMQ\Consumer\ConsumersDataBag;
-use Gamee\RabbitMQ\Consumer\Exception\ConsumerFactoryException;
-use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
